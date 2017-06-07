@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 			BebasNeueBold;
+    src: 					url(../fonts/BebasNeueBold.ttf); 
+}
+
+@font-face {
+	font-family:			OpenSansCondLight;
+    src: 					url(../fonts/OpenSansCondLight.ttf); 
+}	
+
+
+BODY {
+	background-image: 		url(../images/back1.jpg); 
+	background-repeat: 		no-repeat;
+    background-attachment: 	fixed;
+	background-size: 		100%;
+	font-family: 			OpenSansCondLight;
+	font-size: 				18px;
+	color: 					#163A7F;
+}
+
+
+H4 { 
+    font-family: 			BebasNeueBold; 
+	color: 					#307104;
+	margin-bottom: 			-15px;
+}
+   
+FORM	{
+	margin-left: 			15%;
+}
+
+.container {
+	width: 					100%;
+	display: 				table;
+	margin-top: 			2%;
+}
+	
+.box {
+	position:				absolut;
+	display: 				table-cell;
+	width: 					20%;
+	text-align: 			left;
+}
+
+
+
+.price	{
+	background: 			transparent; 
+	border: 				none;
+	font-weight: 			bold;
+	font-family: 			OpenSansCondLight;
+	font-size: 				18px;
+	color: 					#163A7F;
+}
+
+.formWrapper	{ 
+	border-radius: 			10px;
+	margin-top: 			20%; 
+	background-color: 		white; 
+	opacity: 				0.9;
+}
+
+.shopping_cart	{
+	table-layout: 			auto;
+	margin-left: 			5%;
+	margin-right: 			5%;
+	margin-top: 			1%;
+	width: 					90%;
+	display: 				none;
+	text-align: 			center;
+}
+.shopping_cart th { 
+	font-family: 			OpenSansCondLight;
+	font-weight: 			bold;
+	width: 					10%;
+	color: 					#0c1f26;
+	
+}
+
+.cancel_button	{
+	text-align:				center; 
+	padding:				11px 32px; 
+	border:					none; 
+	color:					#0c1f26; 
+	background:				transparent;
+	
+ }
+ 
+.cancel_button:hover	{
+	color: 					#1679ad; 
+ }
+ 
+
+/* calendar style */
+.ui-datepicker {
+	background: 			#fff;
+	padding:				10px;
+	border:					1px solid #ccc;
+}
+
+.ui-datepicker table {
+	width:					278px;
+}
+ 
+.ui-datepicker table td {
+	text-align:				center;
+}
+ 
+.ui-datepicker a {
+	cursor:					pointer;
+	text-decoration:		none;
+}
+ 
+.ui-datepicker-next {
+	float:					right;
+}
+ 
+.ui-datepicker-title {
+	text-align: 			center;
+	font-weight:			bold;
+} 
+
+#order_button {
+	display: 				inline-block;
+	border: 				1px solid #307104;
+	text-decoration: 		none;
+	margin-left: 			40%;
+	margin-bottom:			1%;
+	font-size: 				18px;
+	font-family: 			BebasNeueBold; 
+	color: 					#307104;
+	background-color: 		transparent;
+	height:					50px;
+    width:					150px;
+}
+
